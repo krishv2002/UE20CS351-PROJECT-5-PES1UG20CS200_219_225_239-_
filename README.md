@@ -5,6 +5,7 @@ Team Details -
 3. PES1UG20CS225 KUNAL KATHARE
 4. PES1UG20CS239 NAHUSH KASHYAP
 
+NOTE: The run.sh file has all commands used to deploy the flask app in order 
 
 1. Command to configure the Docker client in the current command prompt session to connect to the Docker daemon running inside a Minikube virtual machine, followed by building the docker image.
 ![image](https://user-images.githubusercontent.com/93152515/233841119-c1839c29-de7c-4b3c-920f-125a015d629d.png)
