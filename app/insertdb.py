@@ -11,10 +11,10 @@ conn_string = f'mongodb://{user}:{password}@{host}:{port}'
 
 db = MongoClient(conn_string).blog
 createdAt = datetime.now()
-db.posts.insert_one({"title": "Blog By Karthikeya(PES1UG20CS200)", "author": "Karthikeya R Jenni", "createdAt": createdAt})
+db.posts.insert_one({"title": "BY KARTHIKEYA R JENNI", "author": "PES1UG20CS200", "createdAt": createdAt})
 createdAt = datetime.now()
-db.posts.insert_one({"title": "Blog By Krishna(PES1UG20CS219)", "author": "Krishna Vedantha", "createdAt": createdAt})
+db.posts.insert_one({"title": "PES1UG20CS219", "author": "BY KRISHNA VEDANTHA", "createdAt": createdAt})
 createdAt = datetime.now()
-db.posts.insert_one({"title": "Blog By Kunal(PES1UG20CS225)", "author": "Kunal Kathare", "createdAt": createdAt})
+db.posts.insert_one({"title": "PES1UG20CS225", "author": "BY KUNAL KATHARE", "createdAt": createdAt})
 createdAt = datetime.now()
-db.posts.insert_one({"title": "Blog By Nahush(PES1UG20CS239)", "author": "Nahush Kashyap", "createdAt": createdAt})
+db.posts.insert_one({"title": "PES1UG20CS239", "author": "BY NAHUSH KASHYAP", "createdAt": createdAt})
